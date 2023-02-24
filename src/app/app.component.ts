@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'angular-basic';
   newMemberName ="";
   members: string[] =[];
+  errorMessage= " ";
 
   onInput(members: string){
     this.newMemberName=members;
@@ -16,6 +17,13 @@ export class AppComponent {
   }
   
   addMember (){
+
+    if(!this.newMemberName){
+      this.errorMessage="Name can't be Empty";
+      return; 
+    }
+
+    this.errorMessage="";
     this.members.push(this.newMemberName);
     this.newMemberName="";
     console.log(this.members);
