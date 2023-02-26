@@ -5,9 +5,7 @@ and for references i utilize https://angular.io/ as my refences.
 
 Flow of the APP:
 
-User Interface --> Team Generator --> Input Name Member --> Add Member --> Show the name on screen--> input how many team that u want to generate
-
-               --> Generate it --> the member will be divided to some team --> walaaa you have team now ! --> End              
+Start --> User Interface --> Team Generator --> Input Name Member --> Add Member --> Show the name on screen--> input how many team that u want to generate --> Generate it --> the member will be divided to some team --> walaaa you have team now ! --> End              
 
 
 
