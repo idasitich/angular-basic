@@ -1,5 +1,7 @@
 This is The TEAM GENERATOR APP.
+
 This is my first time app that i have built with Angular Framework.
+
 Fisrt thing first, I built this app by watched Angular tutorials from Youtube and Google
 and for references i utilize https://angular.io/ as my refences.
 
