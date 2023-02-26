@@ -40,11 +40,19 @@
     height: 2rem;
   }
   
-  .input-container button {
+  .button-input1 {
     width: 50%;
     background-color: darkcyan;
     border: none;
     color: white;
+    cursor: pointer;
+  }
+  .button-input2 {
+    width: 50%;
+    background-color: rgb(95, 18, 18);
+    border: none;
+    color: white;
+    cursor: pointer;
   }
   
   .input-container input {

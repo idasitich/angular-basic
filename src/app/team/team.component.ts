@@ -9,4 +9,5 @@ import { Component, Input } from '@angular/core';
 export class TeamComponent {
   @Input () team : string[]=[];
   @Input () index =0;
+
 }

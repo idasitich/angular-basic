@@ -61,10 +61,14 @@ export class AppComponent {
       }
     }
    }
-
    this.members=[];
    this.numberOfTeams="";
-
-   console.log(this.teams);
+  }
+  cleanTeams(){
+    this.teams=[];
+    if(!this.numberOfTeams || this.numberOfTeams <= 0){
+      this.errorMessage="you dont have team";
+      return;
+    }
   }
 }

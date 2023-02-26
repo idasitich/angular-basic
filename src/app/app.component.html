@@ -21,9 +21,12 @@
     placeholder="# of teams"
     (input)="onNumberOfTeamsInput(numberOfTeamsInput.value)"
     [value]="numberOfTeams">
-    <button 
+    <button class="button-input1"
     (click)="generateTeams()"
     >Generate</button>
+    <button class="button-input2"
+    (click)="cleanTeams()"
+    >Clean Teams</button>
   </div>
   <p class="error-msg">{{errorMessage}}</p>
 
