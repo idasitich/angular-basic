@@ -1,2 +1,1 @@
-On going to deploy.
-The APP NOT ready to show. lol
+https://idasitich.github.io/angular-basic/
