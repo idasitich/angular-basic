@@ -12,4 +12,6 @@ Start --> User Interface --> Team Generator --> Input Name Member --> Add Member
 
 
 
+You can acees the app from the link below :
+
 https://idasitich.github.io/angular-basic/
